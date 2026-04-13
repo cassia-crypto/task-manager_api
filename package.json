@@ -1,0 +1,16 @@
+{
+  "name": "taskmanager_api",
+  "version": "1.0.0",
+  "description": "Simple REST API for managing tasks using Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["node", "express", "api", "task-manager"],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
