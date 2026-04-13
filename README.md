@@ -29,16 +29,13 @@ This project demonstrates basic CRUD operations, error handling, and clean API d
 
 ## Project Structure
 
-Task-Manager-API/
+task-manager_api/
 │
-├── index.js # Main server file
-├── routes/ # API routes
-├── controllers/ # Business logic
-├── models/ # Data structure (if used)
-├── middleware/ # Custom middleware
-├── .gitignore
-├── package.json
-└── README.md
+├── index.js # Main server file (all API logic here)
+├── package.json # Project metadata & dependencies
+├── package-lock.json # Dependency lock file
+├── README.md # Project documentation
+└── node_modules/ # Auto-generated dependencies (ignored in Git)
 
 
 ---
@@ -47,30 +44,36 @@ Task-Manager-API/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/task-manager-api.git
+
+git clone https://github.com/cassia-crypto/task-manager_api
 2. Install dependencies
 npm install
 3. Start the server
 npm start
-🌐 API Base URL
+
+🌐 API Base URL:
 http://localhost:3000
 
 
-📌 API Endpoints
+📌 API Endpoints:
 
 Create a task
 POST /tasks
+
 Get all tasks
 GET /tasks
+
 Get task by ID
 GET /tasks/:id
+
 Update a task
 PUT /tasks/:id
+
 Delete a task
 DELETE /tasks/:id
 
+📊 Example Task JSON:
 
-📊 Example Task JSON
 {
   "id": 1,
   "title": "Complete assignment",
@@ -78,21 +81,18 @@ DELETE /tasks/:id
   "createdAt": "2026-04-14"
 }
 
-
-🔥 Future Improvements
+🔥 Future Improvements:
 
 Add MongoDB database support
 Add user authentication (JWT)
 Add pagination and filtering
 Deploy using Docker / Render / Vercel
 
-
-👨‍💻 Author
+👨‍💻 Author:
 
 Cassia Rose Kataria
-GitHub: https://github.com/your-username
+GitHub: https://github.com/cassia-crypto
 
-
-📄 License
+📄 License:
 
 This project is open-source and available under the MIT License.
