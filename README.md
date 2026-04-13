@@ -51,13 +51,13 @@ npm start
 
 ---
 
-### API Base URL:
+### 2. API Base URL:
 http://localhost:3000
 
 
 ---
 
-### API Endpoints:
+### 3. API Endpoints:
 Create a task
 POST /tasks
 
@@ -76,7 +76,7 @@ DELETE /tasks/:id
 
 ---
 
-### Example Task JSON:
+### 4. Example Task JSON:
 {
   "id": 1,
   "title": "Complete assignment",
@@ -87,7 +87,7 @@ DELETE /tasks/:id
 
 ---
 
-### Future Improvements:
+### 5. Future Improvements:
 Add MongoDB database support
 Add user authentication (JWT)
 Add pagination and filtering
@@ -96,12 +96,12 @@ Deploy using Docker / Render / Vercel
 
 ---
 
-### Author:
+### 6. Author:
 Cassia Rose Kataria
 GitHub: https://github.com/cassia-crypto
 
 
 ---
 
-### License:
+### 7. License:
 This project is open-source and available under the MIT License.
