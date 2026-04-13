@@ -43,9 +43,11 @@ task-manager_api/
 
 ### 1. Clone the repository
 git clone https://github.com/cassia-crypto/task-manager_api
+
 2. Install dependencies
 npm install
-3. Start the server
+
+4. Start the server
 npm start
 
 
