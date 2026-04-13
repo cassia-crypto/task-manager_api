@@ -30,11 +30,11 @@ This project demonstrates basic CRUD operations, error handling, and clean API d
 ## Project Structure
 
 task-manager_api/
--index.js # Main server file (all API logic here)
--package.json # Project metadata & dependencies
--package-lock.json # Dependency lock file
--README.md # Project documentation
--node_modules/ # Auto-generated dependencies (ignored in Git)
+- index.js # Main server file (all API logic here)
+- package.json # Project metadata & dependencies
+- package-lock.json # Dependency lock file
+- README.md # Project documentation
+- node_modules/ # Auto-generated dependencies (ignored in Git)
 
 
 ---
