@@ -43,20 +43,18 @@ task-manager_api/
 ## Installation & Setup
 
 ### 1. Clone the repository
-```bash
-
 git clone https://github.com/cassia-crypto/task-manager_api
 2. Install dependencies
 npm install
 3. Start the server
 npm start
 
-🌐 API Base URL:
+
+### API Base URL:
 http://localhost:3000
 
 
-📌 API Endpoints:
-
+### API Endpoints:
 Create a task
 POST /tasks
 
@@ -72,8 +70,8 @@ PUT /tasks/:id
 Delete a task
 DELETE /tasks/:id
 
-📊 Example Task JSON:
 
+### Example Task JSON:
 {
   "id": 1,
   "title": "Complete assignment",
@@ -81,18 +79,18 @@ DELETE /tasks/:id
   "createdAt": "2026-04-14"
 }
 
-🔥 Future Improvements:
 
+### Future Improvements:
 Add MongoDB database support
 Add user authentication (JWT)
 Add pagination and filtering
 Deploy using Docker / Render / Vercel
 
-👨‍💻 Author:
 
+👨‍💻 Author:
 Cassia Rose Kataria
 GitHub: https://github.com/cassia-crypto
 
-📄 License:
 
+📄 License:
 This project is open-source and available under the MIT License.
