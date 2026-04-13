@@ -30,12 +30,11 @@ This project demonstrates basic CRUD operations, error handling, and clean API d
 ## Project Structure
 
 task-manager_api/
-│
-├── index.js # Main server file (all API logic here)
-├── package.json # Project metadata & dependencies
-├── package-lock.json # Dependency lock file
-├── README.md # Project documentation
-└── node_modules/ # Auto-generated dependencies (ignored in Git)
+-index.js # Main server file (all API logic here)
+-package.json # Project metadata & dependencies
+-package-lock.json # Dependency lock file
+-README.md # Project documentation
+-node_modules/ # Auto-generated dependencies (ignored in Git)
 
 
 ---
@@ -50,9 +49,13 @@ npm install
 npm start
 
 
+---
+
 ### API Base URL:
 http://localhost:3000
 
+
+---
 
 ### API Endpoints:
 Create a task
@@ -71,6 +74,8 @@ Delete a task
 DELETE /tasks/:id
 
 
+---
+
 ### Example Task JSON:
 {
   "id": 1,
@@ -80,6 +85,8 @@ DELETE /tasks/:id
 }
 
 
+---
+
 ### Future Improvements:
 Add MongoDB database support
 Add user authentication (JWT)
@@ -87,10 +94,14 @@ Add pagination and filtering
 Deploy using Docker / Render / Vercel
 
 
-👨‍💻 Author:
+---
+
+### Author:
 Cassia Rose Kataria
 GitHub: https://github.com/cassia-crypto
 
 
-📄 License:
+---
+
+### License:
 This project is open-source and available under the MIT License.
